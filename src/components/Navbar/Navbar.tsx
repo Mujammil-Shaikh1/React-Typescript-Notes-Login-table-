@@ -9,6 +9,7 @@ export default function Navbar()
     localStorage.removeItem("Userauth")
     alert("Logged out successfully")
     window.location.reload()
+    window.location.assign("/login")
   }
     return(
         <div className="Navbar">

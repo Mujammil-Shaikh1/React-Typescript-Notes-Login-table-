@@ -27,7 +27,7 @@ export default function Table()
 const columns: GridColDef[] = [
     { field: 'id', headerName: 'ID', width: 70 },
     { field: 'title', headerName: 'Title', width: 130 },
-    { field: 'description', headerName: 'Description', width: 500 },
+    { field: 'description', headerName: 'Description', width: 950 },
 
   ];
 

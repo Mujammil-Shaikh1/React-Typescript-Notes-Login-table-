@@ -29,8 +29,9 @@ export default function Login()
         }
         else{
             alert("login successfull")
-            window.location.reload()
             localStorage.setItem("Userauth",JSON.stringify(login))
+            window.location.reload();
+            window.location.assign("/")
         }
     }
     return(
